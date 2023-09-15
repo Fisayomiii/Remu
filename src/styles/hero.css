@@ -1,0 +1,15 @@
+.bg {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    min-height: 100vh;
+    background: url('../assets/glow.png');
+    /* background-position: 50% 60%, 0px 0px; */
+    background-size: cover, auto;
+    background-repeat: no-repeat, repeat;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
