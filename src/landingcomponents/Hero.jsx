@@ -24,7 +24,7 @@ function Hero() {
                                             Listen to songs created by AI from AI <br /> Artiste all over the world 🎶.
                                         </p>
                                     </div>
-                                    <NavLink to="/signup">
+                                    <NavLink to="/welcome">
                                         <div className="flex flex-col items-center justify-center gap-3 mt-5 xl:flex-row xl:justify-start">
                                             <div className="items-center justify-center  px-28 py-2.5 text-center text-black duration-200 bg-white border-2 border-white rounded-lg inline-flex  xl:px-16 hover:bg-transparent hover:border-white hover:text-white focus:outline-none xl:w-auto focus-visible:outline-white text-sm focus-visible:ring-white">
                                                 Get Started

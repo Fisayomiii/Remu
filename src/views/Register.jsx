@@ -4,7 +4,7 @@ import remu from "../assets/remu.png";
 import "../styles/sign.css"
 import Signup from '../landingcomponents/Signup';
 import Login from '../landingcomponents/Login';
-
+import { NavLink } from 'react-router-dom';
 
 function Register() {
     const [loginMode, setLoginMode] = useState(true);
@@ -23,7 +23,10 @@ function Register() {
                             <div className="w-full max-w-md mx-auto mr-42 md:max-w-sm md:px-0 md:w-96 sm:px-4">
                                 <div className="flex flex-col">
                                     <div>
+                                        <NavLink to="/">
                                         <img src={remu} className="mb-5 h-10 w-10 rounded-full" alt="logo" />
+
+                                        </NavLink>
                                         <h2 className="text-3xl text-white">{loginMode ? "Let's get started!" : "Welcome Back!"}</h2>
                                         <p className="mt-2 text-sm text-gray-300">
                                             Already have an account?

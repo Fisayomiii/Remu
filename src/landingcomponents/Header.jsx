@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../assets/remu.png";
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -33,10 +34,13 @@ const Header = () => {
                     <nav className="flex-col items-center flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
                         <div className="inline-flex items-center gap-2 list-none lg:ml-auto">
                             <div className="relative flex-shrink-0 ml-5">
-                                <a className="block px-9 py-4 mb-3 leading-loose text-[#fff] text-xs text-center font-semibold leading-none border-0 ring-2 ring-inset ring-[#fff] active:bg-[#fff] focus:outline-none focus:ring focus:ring-[#fff] transition duration-200 transition ease-in-out delay-150  duration-300 rounded-full" href="/" >Log in</a>
+                                <NavLink to="/welcome" className="block px-9 py-4 mb-3 leading-loose text-[#fff] text-xs text-center font-semibold leading-none border-0 ring-2 ring-inset ring-[#fff] active:bg-[#fff] focus:outline-none focus:ring focus:ring-[#fff] transition duration-200 transition ease-in-out delay-150  duration-300 rounded-full">
+                                    Log in
+                                </NavLink>
                             </div>
-                            <a className="block px-9 py-3 mb-2 leading-loose text-[#000] text-xs text-center font-semibold bg-[#fff] hover:bg-[#fff] active:bg-[#fff] focus:outline-none focus:ring focus:ring-[#fff] font-bold rounded-full transition duration-200 transition ease-in-out delay-150  duration-300"
-                                href="/" >Sign Up</a>
+                            <NavLink to="/welcome" className="block px-9 py-3 mb-2 leading-loose text-[#000] text-xs text-center font-semibold bg-[#fff] hover:bg-[#fff] active:bg-[#fff] focus:outline-none focus:ring focus:ring-[#fff] font-bold rounded-full transition duration-200 transition ease-in-out delay-150  duration-300">
+                                Sign up
+                            </NavLink>
                         </div>
                     </nav>
 
@@ -56,10 +60,14 @@ const Header = () => {
                                     </button>
                                     <ul className="space-y-6 mt-10">
                                         <li >
-                                            <a className="block px-9 py-4 mb-3 leading-loose text-[#000] text-xs text-center font-semibold leading-none border-0 ring-2 ring-inset ring-[#000] active:bg-[#000] focus:outline-none focus:ring focus:ring-[#fff] transition duration-200 transition ease-in-out delay-150  duration-300 rounded-full" href="/" >Log in</a>
+                                            <NavLink to="/welcome" className="block px-9 py-4 mb-3 leading-loose text-[#000] text-xs text-center font-semibold leading-none border-0 ring-2 ring-inset ring-[#000] active:bg-[#000] focus:outline-none focus:ring focus:ring-[#fff] transition duration-200 transition ease-in-out delay-150  duration-300 rounded-full">
+                                                Log in
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a className="block px-9 py-3 mb-2 leading-loose text-[#fff] text-xs text-center font-semibold bg-[#000] hover:bg-[#000] active:bg-[#000] focus:outline-none focus:ring focus:ring-[#fff] font-bold rounded-full transition duration-200 transition ease-in-out delay-150  duration-300" href="/">Sign Up</a>
+                                            <NavLink to="/welcome" className="block px-9 py-3 mb-2 leading-loose text-[#fff] text-xs text-center font-semibold bg-[#000] hover:bg-[#000] active:bg-[#000] focus:outline-none focus:ring focus:ring-[#fff] font-bold rounded-full transition duration-200 transition ease-in-out delay-150  duration-300">
+                                                Sign up
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </div>
