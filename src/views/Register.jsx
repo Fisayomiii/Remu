@@ -21,7 +21,7 @@ function Register() {
 
                         <div className="relative z-10 overflow-hidden flex flex-col flex-1 mt-[-30px] px-4 py-10 lg:py-2 md:flex-none md:px-0 sm:justify-center">
                             
-                            <svg class="absolute inset-0 -z-10 overflow-hidden left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] opacity-5 -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
+                            <svg class="absolute inset-0zzzzzz -z-10 overflow-hidden left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] opacity-5 -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
                                 <defs>
                                     <pattern id="e813992c-7d03-4cc4-a2bd-151760b470a0" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
                                         <path d="M100 200V.5M.5 .5H200" fill="none" />
