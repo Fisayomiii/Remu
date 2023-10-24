@@ -18,7 +18,7 @@ function Hero() {
                                 <div className="text mt-[100] xl:mt-[-100px] max-w-xl text-center xl:text-left">
                                     <div>
                                         <p className="text-2xl font-bold text-white sm:text-3xl">
-                                            Listen to AI generated songs🎶.
+                                            Listen to AI generated songs.
                                         </p>
                                         <p className="max-w-xl text-lg mt-4 text-base tracking-tight text-[#FDFDFD]">
                                             Listen to songs created by AI from AI <br /> Artiste all over the world 🎶.
