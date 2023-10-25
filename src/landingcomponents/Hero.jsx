@@ -21,7 +21,7 @@ function Hero() {
                                             Listen to AI generated songs🎶.
                                         </p>
                                         <p className="max-w-xl text-lg mt-4 text-base tracking-tight text-[#FDFDFD]">
-                                            Listen to songs created by AI from AI <br /> Artiste all over the world 🎶.
+                                            Listen to songs created by AI from AI <br /> Artiste all over the world.
                                         </p>
                                     </div>
                                     <NavLink to="/welcome">
