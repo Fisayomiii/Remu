@@ -1,12 +1,12 @@
 {
     "name": "Remu",
     "short_name": "Remu",
-    "description": "An app that can show weather forecast for your city.",
+    "description": "A music web app that harnesses AI creativity to craft personalized, unique music tracks for your listening pleasure.",
     "start_url": "/index.html",
     "display": "standalone",
     "orientation": "portrait",
-    "theme_color": "#171717",
-    "background_color": "#e8ebf2",
+    "theme_color": "#1f1f1f",
+    "background_color": "#1f1f1f",
     "icons": [
         {
             "src": "/remu.png",
